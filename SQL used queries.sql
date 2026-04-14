@@ -165,8 +165,12 @@ set
 -- STEP 14: FINAL CHECK
 -- =========================================
 select count(*) as total_rows_after from sales_data;
-
+-- =========================================
+-- QUICK CHECK AFTER CLEAN AND TRANSFORM
+-- =========================================
 select * from sales_data limit 20;
-
+-- =========================================
+-- SHOW THE FULL DATA SETS
+-- =========================================
 SELECT * FROM sales_data;
 
